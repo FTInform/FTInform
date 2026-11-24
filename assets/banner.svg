@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="FTInform · Tomás Ferrari · Desarrollador Full-Stack .NET">
   <defs>
+    <linearGradient id="mono" gradientUnits="userSpaceOnUse" x1="150" y1="128" x2="232" y2="192">
+      <stop offset="0" stop-color="#FFC857"/>
+      <stop offset="0.55" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FF5F3A"/>
+    </linearGradient>
     <linearGradient id="ember" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FFC857"/>
       <stop offset="0.55" stop-color="#F59E0B"/>
@@ -84,7 +89,7 @@
     <g class="logo">
       <circle class="spin" cx="190" cy="160" r="100" fill="none" stroke="#3A2A14" stroke-width="2" stroke-dasharray="3 11"/>
       <polygon points="190,82 257.5,121 257.5,199 190,238 122.5,199 122.5,121" fill="#131318" stroke="url(#ember)" stroke-width="4" stroke-linejoin="round"/>
-      <g fill="url(#ember)">
+      <g fill="url(#mono)">
         <rect x="150" y="128" width="82" height="14" rx="2"/>
         <rect x="150" y="128" width="14" height="64" rx="2"/>
         <rect x="150" y="154" width="34" height="12" rx="2"/>

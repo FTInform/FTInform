@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 90" width="1280" height="90" role="img" aria-label="FTInform">
   <defs>
+    <linearGradient id="mono" gradientUnits="userSpaceOnUse" x1="627.5" y1="22" x2="652.5" y2="42">
+      <stop offset="0" stop-color="#FFC857"/>
+      <stop offset="0.55" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FF5F3A"/>
+    </linearGradient>
     <linearGradient id="ember" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FFC857"/>
       <stop offset="0.55" stop-color="#F59E0B"/>
@@ -25,7 +30,7 @@
   <path class="glint" d="M60 32 H596"/>
   <path class="glint rev" d="M684 32 H1220"/>
   <polygon points="640,8 660.8,20 660.8,44 640,56 619.2,44 619.2,20" fill="#131318" stroke="url(#ember)" stroke-width="2.5" stroke-linejoin="round"/>
-  <g fill="url(#ember)">
+  <g fill="url(#mono)">
     <rect x="627.5" y="22" width="25" height="4.5" rx="1"/>
     <rect x="627.5" y="22" width="4.5" height="20" rx="1"/>
     <rect x="627.5" y="30" width="10.5" height="3.8" rx="1"/>
