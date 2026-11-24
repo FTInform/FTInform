@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="FTInform · Tomás Ferrari · Desarrollador Full-Stack .NET">
+  <defs>
+    <linearGradient id="ember" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC857"/>
+      <stop offset="0.55" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FF5F3A"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+      <stop offset="0" stop-color="#FFC857"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FF5F3A"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="480 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF5F3A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFC857"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FF5F3A" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="190" cy="160" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#24242C"/>
+    </pattern>
+    <clipPath id="card"><rect width="1280" height="320" rx="20"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+      .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+      .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; } .d3 { animation-delay: .75s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+      .logo { opacity: 0; transform-origin: 190px 160px; animation: pop 1s cubic-bezier(.2,.8,.2,1.2) forwards; }
+      @keyframes pop { from { opacity: 0; transform: scale(.7) rotate(-30deg); } to { opacity: 1; transform: scale(1) rotate(0); } }
+      .breath { animation: breath 4s ease-in-out infinite; }
+      @keyframes breath { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+      .trace { fill: none; stroke: #24242C; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .run { fill: none; stroke: url(#pulse); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+             stroke-dasharray: 40 700; stroke-dashoffset: 40; animation: run 4.5s linear infinite; }
+      .r2 { animation-duration: 5.5s; animation-delay: 1.2s; } .r3 { animation-duration: 3.8s; animation-delay: 2.1s; }
+      .r4 { animation-duration: 6s; animation-delay: .6s; } .r5 { animation-duration: 5s; animation-delay: 3s; }
+      @keyframes run { to { stroke-dashoffset: -440; } }
+      .node { fill: #0D0D10; stroke: #F59E0B; stroke-width: 2; }
+      .ping { fill: none; stroke: #F59E0B; stroke-width: 1.5; transform-box: fill-box; transform-origin: center;
+              animation: ping 3s ease-out infinite; }
+      @keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(3.2); opacity: 0; } }
+      .cur { animation: blink 1.05s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .spin { transform-origin: 190px 160px; animation: spin 40s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="320" fill="#0D0D10"/>
+    <rect width="1280" height="320" fill="url(#dots)"/>
+    <rect width="1280" height="320" fill="url(#glow)" class="breath"/>
+
+    <!-- circuitos -->
+    <path class="trace" d="M1280 70 H1080 L1040 110 H900"/>
+    <path class="trace" d="M1280 160 H1120 L1090 190 H980"/>
+    <path class="trace" d="M1280 250 H1060 L1030 220 H940"/>
+    <path class="trace" d="M190 238 V282 H40"/>
+    <path class="trace" d="M122 121 L96 95 H24"/>
+    <path class="run" d="M1280 70 H1080 L1040 110 H900"/>
+    <path class="run r2" d="M1280 160 H1120 L1090 190 H980"/>
+    <path class="run r3" d="M1280 250 H1060 L1030 220 H940"/>
+    <path class="run r4" d="M190 238 V282 H40"/>
+    <path class="run r5" d="M122 121 L96 95 H24"/>
+    <circle class="ping" cx="900" cy="110" r="4"/>
+    <circle class="ping" cx="980" cy="190" r="4" style="animation-delay:1s"/>
+    <circle class="ping" cx="940" cy="220" r="4" style="animation-delay:2s"/>
+    <circle class="node" cx="900" cy="110" r="4"/>
+    <circle class="node" cx="980" cy="190" r="4"/>
+    <circle class="node" cx="940" cy="220" r="4"/>
+    <circle class="node" cx="40" cy="282" r="4"/>
+    <circle class="node" cx="24" cy="95" r="4"/>
+
+    <!-- logo -->
+    <g class="logo">
+      <circle class="spin" cx="190" cy="160" r="100" fill="none" stroke="#3A2A14" stroke-width="2" stroke-dasharray="3 11"/>
+      <polygon points="190,82 257.5,121 257.5,199 190,238 122.5,199 122.5,121" fill="#131318" stroke="url(#ember)" stroke-width="4" stroke-linejoin="round"/>
+      <g fill="url(#ember)">
+        <rect x="150" y="128" width="82" height="14" rx="2"/>
+        <rect x="150" y="128" width="14" height="64" rx="2"/>
+        <rect x="150" y="154" width="34" height="12" rx="2"/>
+        <rect x="197" y="128" width="14" height="64" rx="2"/>
+      </g>
+    </g>
+
+    <!-- texto -->
+    <text x="318" y="168" class="sans rise" font-size="96" font-weight="800" letter-spacing="-2.5">
+      <tspan fill="url(#wordGrad)">FT</tspan><tspan fill="#F4F1EA">Inform</tspan>
+    </text>
+    <text x="322" y="214" class="sans rise d1" font-size="25" font-weight="500" fill="#B4B4BE">Tomás Ferrari  ·  Desarrollador Full-Stack .NET</text>
+    <text x="322" y="256" class="mono rise d2" font-size="18" fill="#F59E0B">&gt; <tspan fill="#8B8B96">APIs · datos en producción · IA aplicada</tspan><tspan class="cur" fill="#FFC857"> ▍</tspan></text>
+
+    <!-- borde inferior -->
+    <rect x="0" y="316" width="1280" height="4" fill="url(#edge)" class="breath"/>
+  </g>
+  <rect x="1" y="1" width="1278" height="318" rx="19.5" fill="none" stroke="#24242C" stroke-width="2"/>
+</svg>

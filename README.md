@@ -1,17 +1,17 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,60:0E7490,100:22D3EE&height=190&section=header&text=FT%20Lab&fontColor=E0F7FF&fontSize=64&fontAlignY=36&animation=fadeIn&desc=Tom%C3%A1s%20Ferrari%20%C2%B7%20Desarrollador%20Full-Stack%20.NET&descAlignY=58&descSize=17" alt="FT Lab" />
+  <img width="100%" src="assets/banner.svg" alt="FTInform · Tomás Ferrari · Desarrollador Full-Stack .NET" />
 </p>
 
 <p align="center">
   <a href="https://github.com/FTInform">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=620&lines=C%23+%C2%B7+ASP.NET+Core+%C2%B7+React+%C2%B7+TypeScript;OrbitaRH%3A+SaaS+de+RRHH+en+producci%C3%B3n;Oracle+%C2%B7+PostgreSQL+%C2%B7+SQL+Server;Modernizando+sistemas+legacy+VB6+%E2%86%92+.NET;Construyendo+con+Claude+Code+%2B+MCP;Del+rack+al+deploy%3A+8+a%C3%B1os+en+IT" alt="Escribiendo..." />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=F59E0B&center=true&vCenter=true&width=620&lines=C%23+%C2%B7+ASP.NET+Core+%C2%B7+React+%C2%B7+TypeScript;OrbitaRH%3A+SaaS+de+RRHH+en+producci%C3%B3n;Oracle+%C2%B7+PostgreSQL+%C2%B7+SQL+Server;Modernizando+sistemas+legacy+VB6+%E2%86%92+.NET;Construyendo+con+Claude+Code+%2B+MCP" alt="Escribiendo..." />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://orbitarh.com.ar/login"><img src="https://img.shields.io/badge/OrbitaRH-en_producci%C3%B3n-22D3EE?style=for-the-badge&labelColor=0B1120&logo=rocket&logoColor=22D3EE" alt="OrbitaRH" /></a>
-  <a href="#-certificaciones"><img src="https://img.shields.io/badge/Claude_Academy-6_insignias-D97757?style=for-the-badge&labelColor=0B1120&logo=claude&logoColor=D97757" alt="Claude Academy" /></a>
-  <a href="https://agdress.netlify.app"><img src="https://img.shields.io/badge/Chess_AI-jugar-22D3EE?style=for-the-badge&labelColor=0B1120&logo=lichess&logoColor=22D3EE" alt="Chess AI" /></a>
+  <a href="https://orbitarh.com.ar/login"><img src="https://img.shields.io/badge/OrbitaRH-en_producci%C3%B3n-F59E0B?style=for-the-badge&labelColor=0D0D10&logo=rocket&logoColor=F59E0B" alt="OrbitaRH" /></a>
+  <a href="#-certificaciones"><img src="https://img.shields.io/badge/Claude_Academy-6_insignias-D97757?style=for-the-badge&labelColor=0D0D10&logo=claude&logoColor=D97757" alt="Claude Academy" /></a>
+  <a href="https://agdress.netlify.app"><img src="https://img.shields.io/badge/Chess_AI-jugar-F59E0B?style=for-the-badge&labelColor=0D0D10&logo=lichess&logoColor=F59E0B" alt="Chess AI" /></a>
 </p>
 
 ---
@@ -34,7 +34,7 @@ Vengo del lado del hardware, los servidores y el soporte. Por eso cuando escribo
 - 🚀 Escalando **OrbitaRH**, una plataforma de RRHH multiempresa que ya está en producción.
 - 🏥 Migrando un sistema de gestión de salud de **VB6 a .NET 10**, pantalla por pantalla y con pruebas de paridad contra Oracle.
 - 🤖 Trabajando con **Claude Code**, el **Agent SDK** y **MCP** en el día a día y en herramientas propias.
-- 🔬 Publicando experimentos de hardware y software en **FT Lab**.
+- 🔬 Publicando experimentos de hardware y software en mis repos públicos.
 
 ---
 
@@ -55,7 +55,7 @@ Cada empresa gestiona a su gente desde un solo lugar, con un panel de operador p
 - 📊 Métricas de uso para decidir hacia dónde crece el producto.
 - 🔐 JWT, contraseñas con BCrypt, migraciones de esquema versionadas y despliegue con Docker.
 
-<a href="https://orbitarh.com.ar/login"><img src="https://img.shields.io/badge/Abrir_OrbitaRH-%E2%86%92-22D3EE?style=flat-square&labelColor=0B1120" alt="Abrir OrbitaRH" /></a>
+<a href="https://orbitarh.com.ar/login"><img src="https://img.shields.io/badge/Abrir_OrbitaRH-%E2%86%92-F59E0B?style=flat-square&labelColor=0D0D10" alt="Abrir OrbitaRH" /></a>
 
 </td>
 <td width="38%" valign="top">
@@ -189,7 +189,7 @@ Sistemas que construyo y mantengo en repositorios privados. Por confidencialidad
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude_Agent_SDK-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-0B1120?style=flat-square&logo=modelcontextprotocol&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-0D0D10?style=flat-square&logo=modelcontextprotocol&logoColor=white" />
   <img src="https://img.shields.io/badge/Ollama-000?style=flat-square&logo=ollama&logoColor=white" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
@@ -200,11 +200,11 @@ Sistemas que construyo y mantengo en repositorios privados. Por confidencialidad
 ## 📈 Lecturas del laboratorio
 
 <p align="center">
-  <img width="49%" src="https://streak-stats.demolab.com?user=FTInform&theme=github-dark-blue&background=0B1120&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=E0F7FF&dates=7A8BA3&stroke=0E7490&hide_border=true&locale=es" alt="Racha de contribuciones" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=FTInform&theme=dark&background=0D0D10&border=24242C&stroke=24242C&ring=F59E0B&fire=FF5F3A&currStreakNum=F4F1EA&sideNums=F4F1EA&currStreakLabel=F59E0B&sideLabels=B4B4BE&dates=8B8B96&locale=es" alt="Racha de contribuciones" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=FTInform&bg_color=0B1120&color=E0F7FF&line=22D3EE&point=E0F7FF&area=true&area_color=0E7490&hide_border=true&custom_title=Contribuciones%20de%20los%20%C3%BAltimos%2031%20d%C3%ADas" alt="Gráfico de actividad" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=FTInform&bg_color=0D0D10&color=B4B4BE&title_color=F4F1EA&line=F59E0B&point=FF5F3A&area=true&area_color=F59E0B&hide_border=true&radius=12&custom_title=Contribuciones%20de%20los%20%C3%BAltimos%2031%20d%C3%ADas" alt="Gráfico de actividad" />
 </p>
 
 <p align="center">
@@ -230,10 +230,10 @@ I'm **Tomás**, a full-stack .NET developer from Argentina. I build **ASP.NET Co
 
 Before writing software I spent ~8 years in IT infrastructure and support. That background shapes how I build: with operations, maintenance and failure modes in mind.
 
-**FT Lab** is where I publish my hardware and software experiments.
+My public repos are where I publish hardware and software experiments.
 
 </details>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,40:0E7490,100:0B1120&height=100&section=footer" alt="" />
+  <img width="100%" src="assets/footer.svg" alt="FTInform" />
 </p>
